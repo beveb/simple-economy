@@ -1,4 +1,4 @@
-@commands.command()
+    @commands.command()
     @commands.cooldown(1, 3, BucketType.guild)
     @commands.cooldown(1, 3, BucketType.user)
     async def jobs(self, ctx):
